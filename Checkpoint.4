@@ -1,0 +1,70 @@
+Exerice 1
+Input
+def max_of_two( x, y ):
+    if x > y:
+        return x
+    return y
+def max_of_three( x, y, z ):
+    return max_of_two( x, max_of_two( y, z ) )
+print(max_of_three(3, 6, -5))
+Output
+6
+
+Exercice 2
+def calculation(a, b):
+    a-b,a-b
+
+res = calculation(40, 10)
+print(res)
+Output
+None (Mais je n'ai pas compris pourquoi ca a mis None)
+
+Exercice 3
+1rst function
+Input
+numbers = [1,2,3,4,5,1,4,5]
+Sum = sum(numbers)
+print(Sum)
+Sum = sum(numbers, 10)
+print(Sum)
+Output
+25 35
+2nd fonction
+Input
+my_list = [1, 2, 3]
+multiplied_list = [element * 2 for element in my_list]
+print(multiplied_list)
+Output
+2,4,6
+3rd function
+Input
+def EvenOddSum(a, n):
+    even_sum = sum(a[::2])
+    odd_sum = sum(a[1::2])
+    print("Even index positions sum", even_sum)
+    print("Odd index positions sum", odd_sum)
+arr = [1, 2, 3, 4, 5, 6]
+n = len(arr)
+EvenOddSum(arr, n)
+Ouput
+Even index positions sum 9
+Odd index positions sum 12
+Exercice 4
+Input
+items=[n for n in input().split('-')]
+items.sort()
+print('-'.join(items))
+Output
+green-red-yellow-black-white
+black-green-red-white-yellow
+
+Exercice 5
+Input
+import math
+c=50
+h=30
+value = []
+items=[x for x in input().split(',')]
+for d in items:
+    value.append(str)
+print(','.join(value))
